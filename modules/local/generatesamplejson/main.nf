@@ -35,7 +35,9 @@ process GENERATE_SAMPLE_JSON {
         "metadata": {
             "samples": {
                 "${meta.id}": {
-                    "reads": ["${reads[0]}", "${reads[1]}"]
+                    "reads": ["${reads[0]}", "${reads[1]}"],
+                    "IRIDA_EXAMPLE_ENV": "\${IRIDA_EXAMPLE_ENV}",
+                    "SUBMITDATAIRIDANEXT_SRA_UPLOAD_USERNAME": "\${SUBMITDATAIRIDANEXT_SRA_UPLOAD_USERNAME}"
                 }
             }
         }
