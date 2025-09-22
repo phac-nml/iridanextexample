@@ -33,6 +33,6 @@
                 ]
             }
         },
-        "required": ["sample"]
+        "required": ["sample", "fastq_1"]
     }
 }
