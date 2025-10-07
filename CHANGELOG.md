@@ -5,9 +5,13 @@ and this project adheres to [Semantic Versioning](https://semver.org/spec/v2.0.0
 
 ## [Unreleased]
 
-### `Updated`
+### `Added`
 
 - Adding GitHub CI tests against Nextflow `24.10.3`. [PR #34](https://github.com/phac-nml/iridanextexample/pull/34)
+
+### `Updated`
+
+- Some minor updates to GitHub actions and `.nf-core.yml` to better match latest nf-core template. [PR #34](https://github.com/phac-nml/iridanextexample/pull/34)
 
 ## [1.0.4]- 2024/08/28
 
