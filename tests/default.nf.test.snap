@@ -1,0 +1,67 @@
+{
+    "-profile test": {
+        "content": [
+            12,
+            {
+                "ASSEMBLY_STUB": {
+                    "assemblystub": "0.1.0"
+                },
+                "CUSTOM_DUMPSOFTWAREVERSIONS": {
+                    "python": "3.11.7",
+                    "yaml": "5.4.1"
+                },
+                "GENERATE_SAMPLE_JSON": {
+                    "generatesamplejson": "0.1.0"
+                },
+                "GENERATE_SUMMARY": {
+                    "generatesummary": "0.1.0"
+                },
+                "IRIDA_NEXT_OUTPUT": {
+                    "iridanextoutput": "0.1.0"
+                },
+                "SIMPLIFY_IRIDA_JSON": {
+                    "simplifyiridajson": "0.1.0"
+                },
+                "Workflow": {
+                    "phac-nml/iridanextexample": "1.0.4"
+                }
+            },
+            [
+                "assembly",
+                "assembly/SAMPLE1.assembly.fa.gz",
+                "assembly/SAMPLE2.assembly.fa.gz",
+                "assembly/SAMPLE3.assembly.fa.gz",
+                "generate",
+                "generate/SAMPLE1.json.gz",
+                "generate/SAMPLE2.json.gz",
+                "generate/SAMPLE3.json.gz",
+                "iridanext.output.json.gz",
+                "pipeline_info",
+                "pipeline_info/software_versions.yml",
+                "simplify",
+                "simplify/SAMPLE1.simple.json.gz",
+                "simplify/SAMPLE2.simple.json.gz",
+                "simplify/SAMPLE3.simple.json.gz",
+                "summary",
+                "summary/summary.txt.gz"
+            ],
+            [
+                "SAMPLE1.assembly.fa.gz:md5,114ad7a3a43ac4c5a4edb9a15bfde04c",
+                "SAMPLE2.assembly.fa.gz:md5,b2dd4fb2af6f9a1ac8568449057d5f96",
+                "SAMPLE3.assembly.fa.gz:md5,3b7e26ed8016f3840a2e4c02fd203d02",
+                "SAMPLE1.json.gz:md5,3bb13b07effb543b08dd9de8399a6743",
+                "SAMPLE2.json.gz:md5,0860c63dcd5691613556c1036b6d571b",
+                "SAMPLE3.json.gz:md5,12d256bcb45fe56e018f316945831f1e",
+                "iridanext.output.json.gz:md5,e8ad07c9dbedeebf3f59e219777f54bb",
+                "SAMPLE1.simple.json.gz:md5,f92bd8c2a3d047888f4f15df70c59559",
+                "SAMPLE2.simple.json.gz:md5,9505d6bc926f4b8f26cdac19230ab543",
+                "SAMPLE3.simple.json.gz:md5,ba0af677feae8e20f9b2f758f6c3fdf7"
+            ]
+        ],
+        "meta": {
+            "nf-test": "0.9.2",
+            "nextflow": "25.04.6"
+        },
+        "timestamp": "2025-10-07T16:31:42.357864578"
+    }
+}
