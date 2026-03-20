@@ -12,6 +12,7 @@ and this project adheres to [Semantic Versioning](https://semver.org/spec/v2.0.0
 ### `Updated`
 
 - Some minor updates to GitHub actions and `.nf-core.yml` to better match latest nf-core template. [PR #34](https://github.com/phac-nml/iridanextexample/pull/34)
+- Set nextflow version 25.10.4 to replace 'latest-everything' to confirm compatibility with next IRIDA-Next nextflow version in `.github/workflows` for nf-test. [PR #35](https://github.com/phac-nml/iridanextexample/pull/35)
 
 ## [1.0.4]- 2024/08/28
 
