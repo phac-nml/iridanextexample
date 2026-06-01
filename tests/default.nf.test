@@ -7,6 +7,7 @@ nextflow_pipeline {
     test("-profile test") {
         when {
             params {
+                input  = "${projectDir}/assets/samplesheet.json"
                 outdir = "$outputDir"
             }
         }
